@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="index.js" defer></script>
+    <title>Panetone Gourmet</title>
+</head>
+<body>
+    <div class="header">  
+        Panetone Gourmet  
+    </div>  
+
+    <div class="calculator-container">   
+        <div class="form-group">  
+            <label for="quantity">Quantidade:</label>  
+            <input type="number" id="quantity" name="quantity">  
+        </div>  
+        <div class="form-group"> 
+            <p>Massa em g:</p> 
+            <select id="massaSelector" alternarEntradas()>
+                <option value="">Selecione uma Massa</option>  
+                <option value="massa1">180g</option>  
+                <option value="massa2">440g</option>  
+                <option value="massa3">700g</option>  
+            </select>  
+        </div>  
+        <button class="calculate-button">Calcular</button>  
+    </div>  
+
+    <div class="result-container">  
+        <h2>Resultado</h2>  
+        <div id="res"></div>
+    </div>  
+
+    <div class="footer">  
+        Scrumaster: Ana Clara<br>  
+        Develops: Helena, Manuela e Agatha  
+    </div>  
+</body>
+</html>
