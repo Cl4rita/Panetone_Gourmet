@@ -4,7 +4,8 @@
   "description": "Projeto para calcular o preço e a massa do panetone",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "vite build"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,7 @@
   "keywords": [
     "Panetone"
   ],
+  "type": "module",
   "author": "Clara Furtado",
   "license": "MIT",
   "bugs": {
