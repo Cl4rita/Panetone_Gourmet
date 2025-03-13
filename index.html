@@ -14,19 +14,37 @@
 
     <div class="calculator-container">   
         <div class="form-group">  
-            <label for="quantity">Quantidade:</label>  
-            <input type="number" id="quantity" name="quantity">  
+            <label for="quantidade">Quantidade:</label>  
+            <input type="number" id="quantidade" name="quantidade">  
         </div>  
         <div class="form-group"> 
             <p>Massa em g:</p> 
-            <select id="massaSelector" alternarEntradas()>
-                <option value="">Selecione uma Massa</option>  
-                <option value="massa1">180g</option>  
-                <option value="massa2">440g</option>  
-                <option value="massa3">700g</option>  
+            <select id="raioSelector">
+                <option value="">Selecione uma Massa:</option>  
+                <option value="180">180g</option>  
+                <option value="440">440g</option>  
+                <option value="700">700g</option>  
             </select>  
         </div>  
-        <button class="calculate-button">Calcular</button>  
+        <div class="form-group"> 
+            <p>Raio:</p> 
+            <select id="raioSelector">
+                <option value="">Selecione o Raio:</option>  
+                <option value="4">4</option>  
+                <option value="5">5</option>  
+                <option value="10">10</option>  
+            </select>  
+        </div>  
+        <div class="form-group"> 
+            <p>Raio:</p> 
+            <select id="alturaSelector">
+                <option value="">Selecione a Altura:</option>  
+                <option value="5">5</option>  
+                <option value="8">8</option>  
+                <option value="3.2">3.2</option>  
+            </select>  
+        </div>  
+        <button class="calcular">Calcular</button>  
     </div>  
 
     <div class="result-container">  
