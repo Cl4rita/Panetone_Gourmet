@@ -1,3 +1,13 @@
+function arredondar(valor) {
+    let arredondado = Math.round(valor);
+
+    if (arredondado === 0) {
+        return 1;
+    }
+
+    return arredondado;
+}
+
 export default class Panetone{
     constructor(raio, altura, massa){
         this.raio = raio
@@ -19,7 +29,7 @@ export default class Panetone{
        this.farinha = (250 * massa) / 440
        this.fermento = (10 * massa) / 440
        this.leite = (60 * massa) / 440
-       this.ovos = (2 * massa) / 440
+       this.ovos = arredondar((2 * massa) / 440)
        this.manteiga = (55 * massa) / 440
        this.acucar = (60 * massa) / 440
        this.mel = (10 * massa) / 440
