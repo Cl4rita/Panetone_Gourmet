@@ -4,7 +4,6 @@ function arredondar(valor) {
     if (arredondado === 0) {
         return 1;
     }
-
     return arredondado;
 }
 
